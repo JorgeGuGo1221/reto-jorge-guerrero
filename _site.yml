@@ -1,4 +1,5 @@
 name: "Citybike-Jorge-Guerrero"
+output_dir: docs
 navbar:
   title: "Bicicleta Rodante"
   left:
