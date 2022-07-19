@@ -1,0 +1,8 @@
+name: "Citybike-Jorge-Guerrero"
+navbar:
+  title: "Bicicleta Rodante"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Mini_muestra"
+      href: Muestra.html
