@@ -2,24 +2,3 @@
 title: "Bicicleta Rodante"
 ---
 
-
-```{r setup, include=FALSE}
-#install.packages("plotly")
-
-library(plotly)
-```
-
-```{r}
-df = read.csv('https://raw.githubusercontent.com/JorgeGuGo1221/Markdown-git/master/coffee-flavors.csv')
-fig <- plot_ly()
-fig <- fig %>% add_trace(
-  type='sunburst',
-  ids=df$ids,
-  labels=df$labels,
-  parents=df$parents,
-  domain=list(column=1),
-  maxdepth=2,
-  insidetextorientation='radial'
-)
-fig
-```

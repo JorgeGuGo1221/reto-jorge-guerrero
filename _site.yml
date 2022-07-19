@@ -6,3 +6,5 @@ navbar:
       href: index.html
     - text: "Mini_muestra"
       href: Muestra.html
+    - text: "Mi análisis"
+      href: mark-down-analisis.html
